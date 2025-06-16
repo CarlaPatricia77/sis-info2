@@ -1,0 +1,9 @@
+{
+	"name": "adfucbsisinfo2",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be6fd8a3-efe2-484c-815e-4792ddf3092b",
+		"tenantId": "cc28633f-12b8-46cb-bc15-951dae239b4d"
+	}
+}
