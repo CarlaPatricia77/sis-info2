@@ -123,27 +123,27 @@
 						"defaultValue": [
 							{
 								"folder_name": "Clientes_BD_GEN",
-								"file name": "Clientes_BD-GEN.csv"
+								"file_name": "Clientes_BD-GEN.csv"
 							},
 							{
 								"folder_name": "Clientes_location",
-								"file name": "Clientes_location.csv"
+								"file_name": "Clientes_location.csv"
 							},
 							{
 								"folder_name": "Clientes(1)",
-								"file name": "Clientes(1).csv"
+								"file_name": "Clientes(1).csv"
 							},
 							{
 								"folder_name": "Detalle_ventas",
-								"file name": "Detalle_ventas.csv"
+								"file_name": "Detalle_ventas.csv"
 							},
 							{
 								"folder_name": "Productos_CAT_MANT",
-								"file name": "Productos_CAT_MANT.csv"
+								"file_name": "Productos_CAT_MANT.csv"
 							},
 							{
 								"folder_name": "Productos",
-								"file name": "Productos.csv"
+								"file_name": "Productos.csv"
 							}
 						]
 					}
@@ -245,7 +245,7 @@
 					"location": {
 						"type": "HttpServerLocation",
 						"relativeUrl": {
-							"value": "CarlaPatricia77/sis-info2/refs/heads/main/Clientes_BD-GEN.csv",
+							"value": "CarlaPatricia77/sis-info2/refs/heads/main/Clientes_BD-GEN.csv/@{dataset().file_name}",
 							"type": "Expression"
 						}
 					},
