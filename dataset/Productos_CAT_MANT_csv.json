@@ -1,0 +1,25 @@
+{
+	"name": "Productos_CAT_MANT_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "github_com",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "CarlaPatricia77/sis-info2/refs/heads/main/Productos_CAT_MANT.csv",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

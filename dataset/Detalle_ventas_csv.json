@@ -1,0 +1,25 @@
+{
+	"name": "Detalle_ventas_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "github_com",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "CarlaPatricia77/sis-info2/refs/heads/main/Detalle_ventas.csv",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

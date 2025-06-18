@@ -1,0 +1,30 @@
+{
+	"name": "Clientes_BD_GEN_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "github_com",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "CarlaPatricia77/sis-info2/refs/heads/main/Clientes_BD-GEN.csv",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
