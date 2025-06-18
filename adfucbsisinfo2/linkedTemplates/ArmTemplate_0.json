@@ -138,7 +138,7 @@
 					"location": {
 						"type": "HttpServerLocation",
 						"relativeUrl": {
-							"value": "CarlaPatricia77/sis-info2/refs/heads/main/Clientes_BD-GEN.csv/@{dataset().file_name}",
+							"value": "CarlaPatricia77/sis-info2/refs/heads/main/Clientes_BD-GEN.csv",
 							"type": "Expression"
 						}
 					},
